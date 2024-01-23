@@ -24,7 +24,7 @@
 <br />
 <h3>Part 3: Protect a subnet using a Network Security Group </h3><br/>
 <p align="center">Step 1: Create a Network Security Group <br/>
-<img src="https://i.imgur.com/Y83RCry.png" height="80%" width="80%" alt="Creat Security Group"/>  
+<img src="https://i.imgur.com/Y83RCry.png" height="80%" width="80%" alt="Create Security Group"/>  
 <br />
 Step 2: Assign Security Group to subent<br/>
 <img src="https://i.imgur.com/0Y1UowA.png" height="80%" width="80%" alt="Assign Security group"/>
@@ -47,14 +47,27 @@ Step 3: Set OS disk space<br/>
 <br />
 <br />
 <h3>Part 6: Install Nextcloud by connecting via SSH using Bastion </h3><br/>
-  <p align="center">Step 1: Server Basic Details<br/>
-<img src="https://i.imgur.com/Xdw7YGB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <p align="center">Step 1: After connecting via SSH, install Nextcloud<br/>
+<img src="https://i.imgur.com/2jYgnDk.png" height="80%" width="80%" alt="Install Nextcloud"/>
+<br />
+Step 2: Assign Admin credentials(they have been covered) and assign a self-signed certificate<br/>
+<img src="https://i.imgur.com/GdRUrnO.png" height="80%" width="80%" alt="Install Nextcloud"/>
 <br />
 <br />
-<h3>Part 7: Publish an IP </h3><br/>
+<h3>Part 7: Set inbound Security Rule so that only my IP address can connect to the server </h3><br/>
+ <p align="center">
+<img src="https://i.imgur.com/f2g3FHj.png" height="80%" width="80%" alt="Inbound Port Rule"/>
 <br />
 <br />
 <h3>8: Create a DNS label </h3><br/>
+<p align="center">Step 1: Create DNS Label<br/>
+  <img src="https://i.imgur.com/DAVDOTh.png" height="80%" width="80%" alt="Create DNS label"/>
+  <br />
+  Step 2: Assign DNS label to server <br/>
+  <img src="https://i.imgur.com/BQCximK.png" height="80%" width="80%" alt="Assign DNS label"/>
+  <br />
+  Step 3: Connect to Nextcloud<br/>
+  <img src="https://i.imgur.com/Z2l3bdJ.png" height="80%" width="80%" alt="Connect to Webserver"/>
 <br />
 <br />
 </p>
